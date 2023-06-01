@@ -66,87 +66,76 @@
 	      <!-- Proyecto -->
 	      <div class="row project">  	
 				<div class="col-lg-3 col-md-4 offset-lg-1">
-					<img class="img-fluid" src="img/downtube.png" alt="">
+					<img class="img-fluid" src="img/genqr.png" alt="">
 				</div>
 				<div class="col-lg-7 col-md-8">
-					<h2 class="section-heading title">DownTube</h2>   
-					<p>Este programa permite descargar videos de YouTube. Al iniciarse, 
-					se abre una ventana con una casilla de texto donde se debe pegar el 
-					enlace completo del video que se desea descargar. Luego, el usuario 
-					puede elegir si quiere descargar solo el audio o el video completo 
-					mediante dos botones de selección (RadioButtons). Finalmente, 
-					se presiona el botón "Descargar" y el programa descarga el archivo 
-					correspondiente al video que se especificó en la casilla de texto. 
-					Además, el programa muestra una ventana de mensaje informando al 
-					usuario que la descarga ha finalizado. El programa está hecho en 
-					Python, utilizando las librerías pytube 
-					(para la descarga del video de YouTube), 
-					tkinter (para la interfaz gráfica).
+					<h2 id="generadorqr" class="section-heading title">Generador QR's</h2>   
+					<p>Este programa utiliza las bibliotecas tkinter y qrcode para generar 
+					códigos QR a partir de un enlace proporcionado por el usuario en una 
+					interfaz gráfica. Al hacer clic en el botón "Generar QR", se crea y 
+					guarda el código QR correspondiente como una imagen en el sistema.
 					</p>
 					<p>
-					En el enlace de "Más información" podrá acceder al repositorio del proyecto.
+					En el enlace de "Código" podrá acceder al programa del proyecto.
 					</p>
 					<p>
-					Dado que el proyecto esta hecho con TKinter he creado un archivo .exe
-					que puede descargar para probar el pragrama.
-					</p><br>
-					<a target="_blank" href="https://github.com/Valver91/downtube" class="btn btn-primary rounded py-2">Más información</a> 
-					<a href="static/DownTube.exe" class="btn btn-primary rounded py-2" style="margin-left: 10px;" download>Descargar .exe</a>
+					En el enlace de ".exe" podrá descargar el archivo ejecutable para que pueda probarlo.
+					</p>
+					<br>
+					<a target="_blank" href="https://github.com/Valver91/Ciencia_Datos/blob/main/GeneradorQR/genTK.py" class="btn btn-primary rounded py-2">Código</a> 
+					<a href="static/DownTube.exe" class="btn btn-primary rounded py-2" style="margin-left: 10px;" download> .exe </a>
 					<br>
 				</div>
 	      </div>
 	      <!-- Proyecto -->
 	      <div class="row project">  	
 				<div class="col-lg-3 col-md-4 offset-lg-1">
-					<img class="img-fluid" src="img/passgenerator.png" alt="">
+					<img class="img-fluid" src="img/asistencia2.jpg" alt="">
 				</div>
 				<div class="col-lg-7 col-md-8">
-					<h2 id="clearcut" class="section-heading title">PassGenerator</h2>   
-					<p>El proyecto Passgenerator es muy especial para mí ya que es el primer proyecto 
-					que he desarrollado en Django, por lo que le tengo un gran aprecio. 
-					A través de este proyecto, he adquirido importantes habilidades para 
-					la creación de aplicaciones web. He aprendido a crear la estructura 
-					básica de directorios y archivos para el proyecto, así como a 
-					definir aplicaciones en Django y organizar la lógica del proyecto en 
-					módulos separados. Además, he aprendido a crear diferentes tipos de 
-					vistas en Django, como vistas basadas en clases o vistas basadas en 
-					funciones, y a trabajar con los parámetros de solicitud y respuesta. 
-					Por último, también he aprendido a crear formularios personalizados 
-					y a trabajar con los datos enviados por los usuarios.
-					</p>
-					<p>En el enlace de "Más información" podrá acceder al repositorio del proyecto.
+					<h2 id="controlasistencia" class="section-heading title">Control de asistencia</h2>   
+					<p>Este programa utiliza varias bibliotecas para realizar reconocimiento facial y registrar la asistencia de empleados. A continuación, explico el funcionamiento general y cómo se modifican los archivos Excel.</p>
+					<p>El programa utiliza las siguientes bibliotecas:</p>
+					<ul>
+						<li>cv2 (OpenCV): Utilizada para trabajar con imágenes y la captura de video de la cámara.</li>
+						<li>face_recognition: Proporciona funciones para el reconocimiento facial, como la detección y codificación de caras.</li>
+						<li>os: Utilizada para acceder al sistema operativo y administrar archivos y directorios.</li>
+						<li>numpy: Utilizada para realizar operaciones numéricas y manipulación de matrices.</li>
+						<li>datetime: Utilizada para obtener la fecha y hora actual.</li>
+						<li>openpyxl: Proporciona funcionalidades para trabajar con archivos de Excel (xlsx).</li>
+					</ul>
+					<p>El programa comienza leyendo las imágenes de los empleados desde una carpeta y las almacena en una lista llamada "mis_imagenes". 
+					También guarda los nombres de los empleados en una lista llamada "nombres_empleados".</p>
+					<p>En el enlace de "Código" podrá acceder al programa del proyecto.
 					</p>
 					<br>
-					<a target="_blank" class="btn btn-primary rounded py-2" href="https://github.com/Valver91/passgenerator">Más información</a>
-					<a target="_blank" class="btn btn-primary rounded py-2" style="margin-left: 10px;" href="https://web-production-e1ed.up.railway.app/">Enlace</a>
+					<a target="_blank" class="btn btn-primary rounded py-2" href="https://github.com/Valver91/Ciencia_Datos/blob/main/Controlador%20de%20asistencia/asistencia.py">Código</a>
+					<a target="_blank" class="btn btn-primary rounded py-2" style="margin-left: 10px;" href="https://github.com/Valver91/Ciencia_Datos/tree/main/Controlador%20de%20asistencia">Repositorio del proyecto</a>
 					<br>
 				</div>
 	      </div>
 		  <!-- Proyecto -->
 	      <div class="row project">  	
 				<div class="col-lg-3 col-md-4 offset-lg-1">
-					<img class="img-fluid" src="img/pomodoro.png" alt="">
+					<img class="img-fluid" src="img/clearcut.png" alt="">
 				</div>
 				<div class="col-lg-7 col-md-8">
-					<h2 class="section-heading title">Pomodoro Programable</h2>   
-					<p>Este programa es un temporizador Pomodoro implementado en Python 
-					utilizando la biblioteca tkinter. El temporizador se divide en tres 
-					pestañas: "Pomodoro" para el tiempo de trabajo de 25 minutos, 
-					"Break Corto" para los descansos de 5 minutos y "Break Largo" para 
-					los descansos de 15 minutos después de completar cuatro ciclos de 
-					trabajo. Los botones Start, Skip y Reset se utilizan para controlar 
-					el temporizador. El temporizador comienza cuando se hace clic en el 
-					botón Start, y si se omite se salta a la siguiente pestaña. Si se 
-					hace clic en el botón de reinicio, se restablecerán todos los 
-					valores. El temporizador se ejecuta en un hilo separado para evitar 
-					que la interfaz de usuario se bloquee mientras el temporizador se 
-					ejecuta en segundo plano.
+					<h2 id="clearcut" class="section-heading title">ClearCut</h2>   
+					<p>El programa utiliza tkinter para crear una interfaz gráfica. La biblioteca rembg se 
+					utiliza para eliminar el fondo de una imagen. Al seleccionar un archivo de entrada y 
+					un archivo de salida, el programa utiliza rembg para procesar la imagen de entrada y 
+					guardarla con el fondo eliminado en el archivo de salida. La biblioteca rembg es 
+					útil para tareas de edición de imágenes que requieren la eliminación del 
+					fondo de forma automatizada.</p>
+					<p>
+					En el enlace de "Código" podrá acceder al repositorio del proyecto.
 					</p>
 					<p>
-					En el enlace de "Más información" podrá acceder al repositorio del proyecto.
+					En el enlace de ".exe" podrá descargar el archivo ejecutable para que pueda probarlo.
 					</p>
 					<br>
-					<a target="_blank" href="https://github.com/Valver91/pomodoro" class="btn btn-primary rounded py-2">Más información</a>
+					<a target="_blank" href="https://github.com/Valver91/Ciencia_Datos/blob/main/ClearCut/clearcut.py" class="btn btn-primary rounded py-2">Código</a>
+					<a target="_blank" class="btn btn-primary rounded py-2" style="margin-left: 10px;" href="https://web-production-e1ed.up.railway.app/"> .exe </a>
 					<br>
 				</div>
 	      </div>
